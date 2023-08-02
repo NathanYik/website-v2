@@ -11,7 +11,7 @@ jobs:
 
     environment:
       name: production
-      url: ${{ steps.deployment.outputs.deploy_url }}
+      url: ${{ steps.deployment.outputs.deploy-url }}
 
     steps:
       - name: Checkout Repository
